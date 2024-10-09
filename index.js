@@ -2,6 +2,7 @@
 var lgoin=document.querySelector("#login");
 var user=document.querySelector("#e-mail");
 var password=document.querySelector("#password");
+var form=document.querySelector("#myform");
 
 lgoin.addEventListener("click",loginSuccess);
 
