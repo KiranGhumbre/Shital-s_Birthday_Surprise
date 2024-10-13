@@ -8,8 +8,8 @@ lgoin.addEventListener("click",loginSuccess);
 
 function loginSuccess(){
    if(user.value==="Shital-Rathod" && password.value==="10-10-2000"){
-    alert("Sorry! Kiran has restricted you from this page, Please ask for his permission.");
-   // window.location.href="./Profile.html"
+    alert("Welcome back Shital! Log in succesfull.");
+    window.location.href="./Profile.html"
    }
    else{
     alert("Incorrect e-mail or password");
