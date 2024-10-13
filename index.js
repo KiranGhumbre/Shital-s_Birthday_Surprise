@@ -9,7 +9,7 @@ lgoin.addEventListener("click",loginSuccess);
 function loginSuccess(){
    if(user.value==="Shital-Rathod" && password.value==="10-10-2000"){
     alert("Welcome back Shital! Log in succesfull.");
-    window.location.href="./Profile.html"
+    window.location.href="./Profile.html";
    }
    else{
     alert("Incorrect e-mail or password");
