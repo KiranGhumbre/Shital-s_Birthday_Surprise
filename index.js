@@ -11,6 +11,12 @@ function loginSuccess(){
     alert("Welcome back Shital! Log in succesfull.");
     window.location.href="./Profile.html";
    }
+   else if(user.value==="Shital-Rathod" && password.value==="10/10/2000"){
+    alert("Welcome Shital in your new page! Log in succesfull.");
+    window.location.href="./Profile1.html";
+   }
+      
+      
    else{
     alert("Incorrect e-mail or password");
    }
